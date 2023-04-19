@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 export default function Task({
   task: { id, title, state },
@@ -46,3 +47,20 @@ export default function Task({
     </div>
   );
 }
+
+// Runtime type checking for React props and similar objects. (No need if it's a TypeScript project)
+Task.propTypes = {
+  /** Composition of the task **/
+  task: PropTypes.shape({
+    /** Id of the task **/
+    id: PropTypes.string.isRequired,
+    /** Title of the task **/
+    title: PropTypes.string.isRequired,
+    /** Curent state of the task **/
+    state: PropTypes.string.isRequired,
+  }),
+  /** Event to change the task to archived **/
+  onArchiveTask: PropTypes.func,
+  /** Event to change the task to pinned **/
+  onPinTask: PropTypes.func,
+};
