@@ -10,6 +10,8 @@
 
 This project used template from Chromatic, which ships with the main React and Storybook configuration files you'll need to get up and running fast.
 
+This project has been published on Chromatic, you can view it [here](https://www.chromatic.com/builds?appId=645269474da279c01dc84bc7&branch=master).
+
 ## 🚅 Quick start
 
 1.  **Create the application.**
