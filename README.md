@@ -5,10 +5,10 @@
 </p>
 
 <h1 align="center">
-  Chromatic's Intro to Storybook React template
+  Storybook Practise
 </h1>
 
-This template ships with the main React and Storybook configuration files you'll need to get up and running fast.
+This project used template from Chromatic, which ships with the main React and Storybook configuration files you'll need to get up and running fast.
 
 ## 🚅 Quick start
 
